@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    font-family: 'Manrope', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(231, 231, 231);
+    color: rgb(20,70,121);
+}
+
+.navbar{
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 3%;
+    
+}
+.logo p{
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-weight: 600;
+}
+.logo span{
+    color: rgb(218, 128, 11);
+    font-family: 'Courgette', cursive;
+}
+.menu{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu p{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+.menu p:hover{
+    color: rgb(218, 128, 11);
+}
+.menu i{
+    font-size: 20px;
+    display: none;
+}
+.profile{
+    display: flex;
+    column-gap: 10px;
+}
+.profile p{
+    color: rgb(218, 128, 11);
+}
+.profile img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+
+.wrapper{
+    padding: 2%;
+    display: flex;
+    column-gap: 20px;
+    height: 0;
+}
+.left__wrp{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.profile__wrp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+    border-radius: 10px;
+}
+.profile__name{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 70%;
+}
+.profile__name h4:hover{
+    cursor: pointer;
+}
+.profile__wrp p{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(99, 99, 99);
+}
+.profile__wrp img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.dashboard{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 20px;
+    padding-bottom: 100px;
+    height: auto;
+}
+.active{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(218, 128, 11);
+}
+.dashboard a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(20,70,121);
+    display: flex;
+}
+.dashboard a:hover{
+    color: rgb(218, 128, 11);
+}
+.dashboard i{
+    color: rgb(20,70,121) ;
+}
+.dashboard i:hover{
+    color: rgb(218, 128, 11);
+}
+.dashboard a:hover{
+    color: rgb(218, 128, 11);
+}
+.dashboard .active{
+    display: flex;
+}
+.right__wrapper{
+    width: 80%;
+    background-color: white;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 25px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.contents h2{
+    text-decoration: none;
+    color: rgb(20,70,121);
+    font-weight: 800;
+    font-size: 30px;
+}
+.contents h2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+.inner__wrp{
+    display: flex;
+    width: 100%;
+    column-gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    padding-bottom: 15px;
+}
+.inner__wrp img{
+    width: 28%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.name__wrp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+}
+.place__wrp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.place__wrp p{
+    width: 60%;
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+.place{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.place a{
+    text-decoration: none;
+    color: rgb(20,70,121);
+    font-size: 18px;
+}
+.place i{
+    color: white;
+    background-color: rgba(181, 181, 181, 0.774);
+    padding: 3px 7px;
+    padding-top: 5.5px;
+    border-radius: 100%;
+    font-size: 12px;
+}
+.place i:hover{
+    background-color: rgba(181, 181, 181, 0.774);
+    cursor: pointer;
+    transition: 500ms;
+}
+.icon__wrp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon__wrap{
+    display: flex;
+    flex-wrap: wrap  ;
+    font-size: 13px;
+    column-gap: 20px;
+    font-weight: 500;
+    color: gray;
+    align-items: center;
+}
+.remove button{
+    color: red;
+    border: 2px solid rgb(154, 5, 5);
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    background-color: white;
+}
+.remove button:hover{
+    background-color: rgb(154, 5, 5);
+    color: white;
+    transition: 500ms;
+}
+@media (max-width:750px){
+    .menu p{
+        display: none;
+    }
+    .profile p{
+        display: flex;
+    }
+    .menu i{
+        display: flex;
+    }
+    .profile__name p{
+        display: none;
+    }
+    .profile__wrp img{
+        width: 40px;
+        height: 40px;
+    }
+    .dashboard p{
+        display: none;
+    }
+    .dashboard i{
+        font-size: 20px;
+    }
+    .contents h2{
+        font-size: 25px;
+    }
+    .inner__wrp img{
+        height: 100px;
+    }
+    .name__wrp{
+        row-gap: 10px;
+    }
+    .place h3{
+        font-size: 18px;
+    }
+    .place i{
+        font-size: 9px;
+        padding-top: 4px;
+        padding: 3px 5px;
+    }
+    .place__wrp p{
+        font-size: 13px;
+        width: 70%;
+    }
+    .icon__wrp{
+        font-size: 11px;
+    }
+}
+@media (max-width:500px){
+    .profile__name h4{
+        display: none;
+    }
+    .contents h2{
+        font-size: 20px;
+    }
+    .inner__wrp img{
+        width: 40%;
+        height: 70px;
+    }
+    .place__wrp h3{
+        font-size: 15px;
+    }
+    .place i{
+        display: none;
+    }
+    .place__wrp p{
+        display: none;
+    }
+    .icon__wrp{
+        column-gap: 3px;
+    }
+    .left__wrp{
+        width: 10%;
+    }
+    .profile__wrp img{
+        width: 30px;
+        height: 30px;
+    }
+    .dashboard{
+        padding-left: 7px;
+    }
+    .right__wrp{
+        width: 85%;
+    }
+}

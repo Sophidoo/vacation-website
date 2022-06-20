@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Manrope', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://www.planetware.com/wpimages/2020/03/malaysia-best-beach-resorts-pangkor-laut-resort.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero{
+    background-color: rgba(0, 0, 0, 0.775);
+    color: rgba(255, 255, 255, 0.944);
+    height: 100vh;
+}
+.wrapper{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 0;
+    row-gap: 30px;
+}
+.top__wrapper p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.712);
+}
+.top__wrapper a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+a:hover{
+    color: rgb(218, 128, 11);
+}
+form{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+input{
+    width: 100%;
+    height: 25px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.531);
+    border: none;
+    border-radius: 10px;
+}
+button{
+    padding: 5px 0;
+    width: 102%;
+    background-color: white;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(218, 128, 11);
+    transition: 500ms;
+    color: white;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+}
+.top__wrapper a{
+    text-decoration: none;
+}
+.form p{
+    text-align: left;
+    font-size: 11px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.818);
+}
+.form p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media (max-width:1000px){
+    .wrapper{
+        width: 40%;
+    }
+}
+@media (max-width:750px){
+    .wrapper{
+        width: 50%;
+    }
+}
+@media (max-width:500px){
+    .wrapper{
+        width: 60%;
+    }
+}
+@media (max-width:400px){
+    .wrapper{
+        width: 80%;
+    }
+}
+

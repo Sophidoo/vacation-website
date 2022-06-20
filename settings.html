@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Stylesheet/settings.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="navbar">
+            <div class="logo">
+                <p>Mitch <span>Tours</span> </p>
+            </div>
+            <div class="menu">
+                <a href="home.html"><p>Home</p></a>
+                <a href="explore.html"><p>Explore</p></a>
+                <a href="contact.html"><p>Contact Us</p></a>
+                <a href="about.html"><p>About</p></a>
+                <div class="profile">
+                    <img src="https://thumbs.dreamstime.com/b/portrait-young-beautiful-girl-fashion-photo-29870052.jpg" alt="">
+                   <div class="active">
+                       Sophie
+                   </div>
+                </div>
+                <i class="bi bi-list"></i>
+            </div>  
+        </div>
+        <div class="wrapper">
+            <div class="left__wrp">
+                <div class="profile__wrp">
+                    <div class="profile__wrap">
+                        <img src="https://thumbs.dreamstime.com/b/portrait-young-beautiful-girl-fashion-photo-29870052.jpg" alt="">
+                        <div class="profile__name">
+                            <h4>Sophia Okosodo</h4>
+                            <p>What's another word for "Gorgeous"?</p>
+                        </div>
+                    </div>
+                    <div class="dashboard">
+                        <a href="dashboard.html"><i class="bi bi-bar-chart"></i> &nbsp; &nbsp; <p>Feed</p></a>
+                        <a href="message.html"><i class="bi bi-chat"></i>&nbsp; &nbsp;  <p>Message</p> </a>
+                        <a href="team.html"><i class="bi bi-people"></i> &nbsp; &nbsp; <p>Groups</p></a>
+                        <a href="favorites.html"><i class="bi bi-star"></i> &nbsp; &nbsp; <p>Favorites</p></a>
+                        <div class="active">
+                            <i class="bi bi-gear"></i> &nbsp; &nbsp; <p>Settings</p>
+                        </div>
+                        <a href="login.html"><i class="bi bi-box-arrow-left"></i> &nbsp; &nbsp; <p>Sign Out</p></a>
+                    </div>
+                </div>
+                <div class="right__wrp">
+                    <div class="right__head">
+                        <h1>Your Personal Profile Info</h1>
+                    </div>
+                    <div class="general__right__wrapper">
+                        <form method="get" action="settings.html">
+                            <div class="profile__details">
+                                <div class="name">
+                                    <label for="fnm">First Name</label><br>
+                                    <input type="text" name="name" id="fnm" placeholder="Name">
+                                </div>
+                                <div class="name">
+                                    <label for="lnm">First Name</label><br>
+                                    <input type="text" name="name" id="lnm" placeholder="Surname">
+                                </div>
+                                <div class="name">
+                                    <label for="unm">Username</label><br>
+                                    <input type="text" name="name" id="unm" placeholder="Username">
+                                </div>
+                                <div class="name">
+                                    <label for="about">About</label>
+                                    <textarea name="about" id="about" cols="30" rows="5" placeholder="About"></textarea>
+                                </div>
+                            </div>
+                        </form>
+                        <form>
+                            <div class="profile__details">
+                                <div class="name">
+                                    <label for="email">Your E-mail</label><br>
+                                    <input type="email" name="email" id="email" placeholder="johndoe@mail.com">
+                                </div>
+                                <div class="name">
+                                    <label for="phone">Personal Phone Number</label><br>
+                                    <input type="tel" name="phone" id="phone" placeholder="+234-8104009853">
+                                </div>
+                                <div class="name">
+                                    <label for="tel">Work Phone Number</label><br>
+                                    <input type="tel" name="tel" id="tel" placeholder="Surnmae">
+                                </div>
+                                <div class="name">
+                                    <label for="country">Country, City</label><br>
+                                    <input type="text" name="country" id="country" placeholder="Nigeria, Port Harcourt">
+                                </div>
+                                <button>Submit</button>
+                            </div>
+                        </form>
+                        <form method="get" action="settings.html">
+                            <div class="profile__details">
+                                <div class="password">
+                                    <label for="psw">Old password</label><br>
+                                    <input type="password" name="psw" id="psw" required>
+                                </div>
+                                <div class="password">
+                                    <label for="npsw">New password</label><br>
+                                    <input type="password" name="npsw" id="npsw" required>
+                                </div>
+                                <div class="password">
+                                    <label for="cpsw">Confirm new password</label><br>
+                                    <input type="password" name="cpsw" id="cpsw" required>
+                                </div>
+                                <button>Update</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>    

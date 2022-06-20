@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@300;400;600;700;800&display=swap');
+
+*{
+    font-family: 'Manrope', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: rgb(20,70,121);
+}
+.hero{
+    padding-left: 60px;
+    width: 70%;
+    padding: 25px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.container img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.container p{
+    padding-top: 10px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: justify;
+}
+b{
+    font-weight: 800;
+}
+span a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(7, 121, 235);
+}
+@media (max-width:750px){
+    .hero{
+        padding: 0;
+        width: 100%;
+    }
+    .container{
+        padding: 25px;
+    }
+    .container img{
+        height: 300px;
+    }
+}

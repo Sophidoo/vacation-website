@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    font-family: 'Manrope', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: rgb(20,70,121);
+    background-image: url(https://miro.medium.com/max/576/1*7FgTI6QxrfaZdA2DVg3w0g.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero{
+    background-color: rgba(255, 255, 255, 0.918);
+    height: fit-content;
+}
+.navbar{
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5%;
+    box-shadow: 10px 0 5px rgba(0, 0, 0, 0.226);
+}
+.logo p{
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-weight: 600;
+}
+.logo span{
+    color: rgb(218, 128, 11);
+    font-family: 'Courgette', cursive;
+}
+.menu{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(20,70,121);
+}
+.menu p:nth-child(1){
+    border: none;
+}
+.active p{
+    color: rgb(218, 128, 11);
+}
+.menu p:hover{
+    color: rgb(218, 128, 11);
+}
+.menu i{
+    font-size: 20px;
+    display: none;
+}
+.profile{
+    display: flex;
+    column-gap: 10px;
+}
+.profile img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.container{
+    display: flex;
+}
+.wrapper{
+    background-color: rgb(20,70,121);
+    color: white;
+    padding: 3%;
+    width: 17%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left__wrp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.wrapper p{
+    font-size: 13px;
+}
+.wrapper p:nth-child(1){
+    font-size: 15px;
+    font-weight: 600;
+}
+.wrapper p:nth-child(2){
+    color: rgb(211, 211, 211);
+    font-weight: 500;
+}
+.wrapper p:nth-child(3){
+    font-weight: 500;
+    font-size: 13px;
+    width: 70%;
+}
+.chat{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 15px;
+}
+.locate{
+    display: flex;
+    flex-direction: column;
+}
+.inner__wrp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+.icons{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 40px;
+}
+.right__wrp{
+    padding: 2% 15%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 83%;
+}
+.form{
+    width: 70%;
+}
+.heading p{
+    font-size: 15px;
+    color: rgb(163, 163, 163);
+    font-weight: 500;
+}
+label{
+    font-size: 14px;
+    font-weight: 600;
+}
+input{
+    width: 100%;
+    height: 25px;
+}
+textarea{
+    width: 100%;
+}
+button{
+    padding: 5px 0;
+    background-color: rgb(20,70,121);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+button:hover{
+    background-color: rgb(6, 33, 59);
+    transition: 500ms;
+}
+.lower__navbar{
+    display: none;
+}
+@media (max-width:1000px){
+    .wrapper{
+        width: 35%;
+    }
+}
+@media (max-width:750px){
+    .menu p{
+        display: none;
+    }
+    .menu i{
+        display: flex;
+    }
+    .profile p{
+        display: flex;
+    }
+    .wrapper{
+        width: 20%;
+    }
+    .wrapper h3{
+        font-size: 15px;
+    }
+    .wrapper p{
+        font-size: 12px;
+    }
+    .wrapper p:nth-child(1){
+        font-size: 13px;
+    }
+    .wrapper p:nth-child(2){
+        font-size: 11px;
+    }
+    .wrapper p:nth-child(3){
+        font-size: 11px;
+    }
+    .right__wrp h1{
+        font-size: 25px;
+    }
+    .heading p{
+        font-size: 12px;
+        color: rgb(163, 163, 163);
+        font-weight: 500;
+    }
+    label{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    input{
+        width: 120%;
+    }
+    textarea{
+        width: 120%;
+    }
+    button{
+        padding: 5px 0;
+        width: 120%;
+    }
+    
+}
+@media (max-width:500px){
+    .logo p{
+        font-size: 15px;
+    }
+    .locate p{
+        display: none;
+    }
+    .icons{
+        column-gap: 5px;
+    }
+    .right__wrp{
+        padding: 5% 10%;
+    }
+    input{
+        width: 130%;
+    }
+    textarea{
+        width: 130%;
+    }
+    button{
+        width: 130%;
+    }
+    .right__wrp{
+        padding-right: 5%;
+    }
+    .wrapper{
+        display: none;
+    }
+    .lower__navbar{
+        display: flex;
+        align-items: center;
+        padding: 5px 0;
+        background-color: rgb(20,70,121);
+        color: white;
+        width: 100%;
+        justify-content: space-around;
+        position: absolute;
+        bottom: 0;
+    }
+}
